@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<!-- description part -->
+<ShortName>ShareDB</ShortName>
+<LongName>ShareDB File Search</LongName>
+<Description>Searches www.sharedb.info for files.</Description>
+<Tags>総合(新着＆更新),映画, アニメ, ドラマ, 海外ドラマ, 一般コミック, 成年コミック, コミック 雑誌, 同人誌, 小説, 動画, EAC, DVDISO, ゲーム, japanese, anime, manga, drama, japanese music, anime raw, manga raw, j-pop, anime music, animations</Tags>
+
+<!-- author of this file -->
+<Developer>mflatischler</Developer>
+<!-- Creative Commons Attribution 3.0 License -->
+
+<!-- search part -->
+<Url type="text/html" method="GET" template="http://s.sharedb.info/s.php?key={searchTerms}&range=all"/>
+<Language>jp</Language>
+<InputEncoding>UTF-8</InputEncoding>
+<OutputEncoding>UTF-8</OutputEncoding>
+
+<!-- misc -->
+<SearchForm>http://s.sharedb.info/s.php</SearchForm>
+</OpenSearchDescription>
